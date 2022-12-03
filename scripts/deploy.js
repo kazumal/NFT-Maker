@@ -16,7 +16,7 @@ const main = async () => {
     "ipfs://Qme7JkBJqYFjuMVGgEPb9Yb1VFcnLkc4ULY9Fr6Un3cLYu"
   );
   await txn.wait();
-  console.log("Minted NFT #1");
+  console.log("Minted NFT #2");
 };
 
 const runMain = async () => {

@@ -44,4 +44,8 @@ contract NFTMaker is ERC721URIStorage, Ownable {
         string memory TokenURI = tokenIdToTokenURI[_tokenId];
         return (TokenURI);
     }
+
+    function trasnferNFT(address _from, address _to, uint256 _tokenId) public {
+        _transfer(_from, _to, _tokenId);
+    }
 }
